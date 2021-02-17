@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    android:padding="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextDialogUserInput"
+            android:layout_width="match_parent"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Enter Emergency Number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <requestFocus />
+</LinearLayout>

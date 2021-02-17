@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.technova.help.AllResponses">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewAllReqRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="All Comments.."
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerAll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#424242"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fbAllSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/right_arrow" />
+        <EditText
+            android:id="@+id/editTextAllReqResp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type here"
+            android:layout_toLeftOf="@id/fbAllSend"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+    </RelativeLayout>
+</LinearLayout>

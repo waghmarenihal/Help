@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technova.help.CreateProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#424242"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:text="Emergency Numbers"
+            android:textColor="#FFF"
+            android:theme="@style/ThemeOverlay.MyTitleText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Please enter 3 contact numbers to be saved in case of EMERGENCY"
+            android:textColor="#FFF" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Welcome"
+            android:textColor="#FFF"
+            android:theme="@style/ThemeOverlay.MyTitleText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Just enter few more details"
+            android:textColor="#FFF" />
+
+        <EditText
+            android:id="@+id/editTextNewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter Your Name"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHighlight="#fff"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/et_NewUserReg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Emergency Number 1"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/et_NewUserReg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Emergency Number 2"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/et_NewUserReg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Emergency Number 3"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:text="Step 2 of 2"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/RegButtonCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#212121"
+                android:padding="10dp"
+                android:text="Create"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

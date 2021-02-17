@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "212189953374",
+    "firebase_url": "https://help-82424.firebaseio.com",
+    "project_id": "help-82424",
+    "storage_bucket": "help-82424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212189953374:android:72c4f5d94e9d7ec6",
+        "android_client_info": {
+          "package_name": "com.technova.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212189953374-8fas3cmhuuvj58qu1kc6qv6tjpr15u6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technova.help",
+            "certificate_hash": "6b41034a1a55700c0f07c1ceedf5546baa1c06ba"
+          }
+        },
+        {
+          "client_id": "212189953374-a2qdu324i264k1pnl7952kvrk29733vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7OJup1F0I0AkLhQZJKR9Usi-jFxhiC7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212189953374-a2qdu324i264k1pnl7952kvrk29733vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
